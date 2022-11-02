@@ -1,112 +1,117 @@
-body{
+body {
   padding: 0;
+  margin: 0;
   font-family: 'Open Sans', sans-serif;
   font-weight: 600;
   font-size: 40px;
 }
 
-/*Animations*/
-
-
-
-
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:600);
-
+/* hello world developers Animations*/
 .body-animation {
- display: flex;
- justify-content: center;
- margin: 20px;
- 
+  margin-bottom: 10px;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
 
 }
 
-
-p {
-  display: inline-block;
-  vertical-align: top;
-  margin: 0;
+.body-animation h1 {
+  color: hsla(0, 0%, 30%);
+  font-weight: bold;
+  letter-spacing: 3px;
+  cursor: pointer;
+  background: linear-gradient(to right,
+      hsl(0, 90%, 8%) 0,
+      hsl(0, 0%, 100%) 10%,
+      hsl(0, 0%, 30%) 20%);
+  -webkit-background-clip:text;
+  -webkit-text-fill-color: transparent;
+  animation: shine 3s infinite linear;
 }
 
-.word {
-  position: absolute;
-  width: 220px;
-  opacity: 0;
-}
-
-.letter {
-  display: inline-block;
-  position: relative;
-  float: left;
-  transform: translateZ(25px);
-  transform-origin: 50% 50% 25px;
-}
-
-.letter.out {
-  transform: rotateX(90deg);
-  transition: transform 0.32s cubic-bezier(0.55, 0.055, 0.675, 0.19);
-}
-
-.letter.behind {
-  transform: rotateX(-90deg);
-}
-
-.letter.in {
-  transform: rotateX(0deg);
-  transition: transform 0.38s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-}
-
-.wisteria {
-  color: #8e44ad;
-}
-
-.belize {
-  color: #2980b9;
-}
-
-.pomegranate {
-  color: #c0392b;
-}
-
-.green {
-  color: #16a085;
-}
-
-.midnight {
-  color: #2c3e50;
+@keyframes shine{
+  0%{
+    background-position: 0;
+  }
+  60%{
+    background-position: 515px;
+  }
 }
 
 
+/*
+.body-animation h1:hover span:nth-child(1) {
+  margin-right: 5px;
+}
 
-/*Animations*/
+.body-animation h1:hover span:nth-child(1):after {
+  content: "";
+}
+
+.body-animation h1:hover span:nth-child(2) {
+  margin-left: 30px;
+}
+
+.body-animation h1:hover span {
+  color: rgb(5, 5, 5);
+  text-shadow: 0 0 50px rgb(250, 19, 19) 0, 0, 20px hsl(0, 2%, 25%) hsl(0, 0%, 40%);
+}
+
+.body-animation h1 span {
+  transition: 0.5s linear;
+}
+*/
+/* hello world developers Animations   ---- end---*/
 
 
-.container h2{
+
+
+.container h2 {
   display: flex;
   justify-content: center;
   margin: 20px;
 
   font-size: 3rem;
 }
+
 .container p {
   font-size: 2rem;
   margin-top: 20px;
- 
+
 }
 
-.front-end-img{
+.front-end-img {
   max-width: 100%;
   max-height: 100%;
   display: block;
 }
 
-.container.navbar.navbar-default{
- display: flex;
- align-items: center;
- justify-content: center;
- 
+.container.navbar.navbar-default {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
 }
 
-.navbar-default{
+.navbar-default {
 
   margin: 0px;
 }
+
+.learning-steps .steps {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  gap: 10px;
+  list-style: none;
+
+}
+
+.learning-steps .steps li {
+  border: 1px solid black;
+}
+
+
+/*animations 2*/
