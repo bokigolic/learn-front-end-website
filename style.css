@@ -1,27 +1,23 @@
-* {}
-
-body {
+* {
   padding: 0;
   margin: 0;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 600;
-  font-size: 40px;
+  box-sizing: border-box;
 
 }
+
+
 
 /* hello world developers Animations*/
 .body-animation {
   margin-bottom: 10px;
-
   display: flex;
   align-items: center;
   justify-content: center;
   text-transform: uppercase;
-
 }
 
 .body-animation h1 {
-  color: hsla(0, 0%, 30%);
+  color: rgb(157, 5, 5);
   font-weight: bold;
   letter-spacing: 3px;
   cursor: pointer;
@@ -112,20 +108,22 @@ body {
   align-items: center;
   justify-content: center;
   text-align: center;
-  padding: 10px;
   gap: 5px;
- 
 
-  
-  
+
+
+
 }
 
-.learning-steps .steps li{
-  border: 3px solid #eaeaea;
+.learning-steps .steps li {
+  border: 3px solid #676464;
   border-radius: 16px;
+  padding: 20px;
+
 
 }
-.learning-steps .steps button{
+
+.learning-steps .steps button {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -136,17 +134,17 @@ body {
 /*Modal*/
 
 .modal {
-  display: none; 
-  position: fixed; 
-  z-index: 1; 
-  padding-top: 100px; 
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
   left: 0;
   top: 0;
-  width: 100%; 
+  width: 100%;
   height: 100%;
   overflow: auto;
-  background-color: rgb(0,0,0); 
-  background-color: rgba(0,0,0,0.4); 
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
 }
 
 /* Modal Content */
@@ -156,8 +154,8 @@ body {
   margin: auto;
   padding: 0;
   border: 1px solid #888;
-  width:50%;
-  box-shadow: 0 12px 22px 0 rgba(0,0,0,0.2),0 16px 30px 0 rgba(0,0,0,0.19);
+  width: 50%;
+  box-shadow: 0 12px 22px 0 rgba(0, 0, 0, 0.2), 0 16px 30px 0 rgba(0, 0, 0, 0.19);
   -webkit-animation-name: animatetop;
   -webkit-animation-duration: 0.4s;
   animation-name: animatetop;
@@ -166,13 +164,27 @@ body {
 
 /* Add Animation */
 @-webkit-keyframes animatetop {
-  from {top:-300px; opacity:0} 
-  to {top:0; opacity:1}
+  from {
+    top: -300px;
+    opacity: 0
+  }
+
+  to {
+    top: 0;
+    opacity: 1
+  }
 }
 
 @keyframes animatetop {
-  from {top:-300px; opacity:0}
-  to {top:0; opacity:1}
+  from {
+    top: -300px;
+    opacity: 0
+  }
+
+  to {
+    top: 0;
+    opacity: 1
+  }
 }
 
 /* The Close Button */
@@ -191,16 +203,53 @@ body {
 }
 
 .modal-header {
-color: black;
+  color: black;
   background-color: #eaeaea;
 }
 
-.modal-body {padding: 2px 16px;}
+.modal-body {
+  padding: 2px 16px;
+}
 
 .modal-footer {
- 
-  
+
+
   color: white;
 }
+
+/*Modal button*/
+
+.modal-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 5px;
+}
+
+.modal-container button {
+
+  display: inline-block;
+  padding: 0.35em 1.2em;
+  border: 0.1em solid black;
+  margin: 0 0.3em 0.3em 0;
+  border-radius: 0.12em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  color: black;
+  text-align: center;
+  transition: all 0.2s;
+}
+
+.modal-container button:hover {
+  color: #000000;
+  background-color: #47f681;
+}
+
+
+
+
 
 /*Modal*/

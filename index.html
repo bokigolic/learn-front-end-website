@@ -11,71 +11,114 @@
 
   <title>Website</title>
 </head>
+<!--
+<div class="container">
+  <nav class="container navbar navbar-default">
+    
+    <ul class="nav navbar-nav">
+      <li class="home"> <a href="/">Home</a></li>
+      <li> <a href="/about.html">About</a></li>
+      <li><a href="/contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</div>
+-->
 
 <body>
   <div class="container">
-    <nav class="container navbar navbar-default">
-      <ul class="nav navbar-nav">
-        <li class="home"> <a href="/">Home</a></li>
-        <li> <a href="/about.html">About</a></li>
-        <li><a href="/contact.html">Contact</a></li>
-      </ul>
-    </nav>
-  </div>
+    <!--Hamburger menu -->
+    <header>
+      <nav class="navbar">
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <a href="/" class="nav-link">Home</a>
+          </li>
+          <li>
+            <a href="/about.html" class="nav-link">About</a>
+          </li>
+          <li>
+            <a href="/contact.html" class="nav-link">Contact</a>
+          </li>
+        </ul>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </nav>
+    </header>
 
 
-  <div class="container">
+    <!--Hamburger menu -->
 
     <div class="body-animation">
       <h1>Hello World, Developers</h1>
-
     </div>
+    <div>
+      <img class="front-end-img" src="/images/front-end.png" />
+      <h2> What Is Front End Development?</h2>
+      <p>Want to learn web development as a beginner, but not sure where to start?
+        Front end developers create the content you see when interacting with a website. This includes visual elements
+        such as menus, buttons and animations that can execute on a client’s machine. Front end developers use three
+        primary languages: HTML to create a website’s structure, CSS to change how a website looks and JavaScript to
+        create interactive elements.
 
-    <img class="front-end-img" src="/images/front-end.png" />
-    <h2> What Is Front End Development?</h2>
-    <p>Want to learn web development as a beginner, but not sure where to start?
+        First, here are the steps that you’ll need to follow as a beginner web developer.
+      <div class="learning-steps">
+        <ol class="steps">
+          <li>Get the Tools You Need to Start</li>
+          <li>Learn basic HTML, CSS, and JS</li>
+          <li>Learn tools: package managers, build tools, version control</li>
+          <li>Learn Sass, responsive design, JS frameworks</li>
+          <li>Learn back-end basics: servers and databases, programming languages</li>
+        </ol>
+      </div>
+      </p>
+      <br>
+    </div>
+    <hr>
 
 
-      Front end developers create the content you see when interacting with a website. This includes visual elements
-      such as menus, buttons and animations that can execute on a client’s machine. Front end developers use three
-      primary languages: HTML to create a website’s structure, CSS to change how a website looks and JavaScript to
-      create interactive elements.
-
-      First, here are the steps that you’ll need to follow as a beginner web developer.</p>
-    <br>
-
-
-
-
-
-    <button id="myBtn">Open Modal</button>
-    <div id="myModal" class="modal">
-      <div class="modal-content">
-        <div class="modal-header">
-          <span class="close">&times;</span>
-          <h2>Steps to learn web development basics:</h2>
-        
-        </div>
-        <div class="modal-body">
-         
-          <div class="learning-steps">
-            <ol class="steps">
-              <li>Learn the basics of how websites work, using a code editor>Check</li>
-              <li>Learn basic HTML, CSS, and JavaScript</li>
-              <li>Learn tools: package managers, build tools, version control</li>
-              <li>Learn Sass, responsive design, JS frameworks</li>
-              <li>Learn back-end basics: servers and databases, programming languages</li>
-            </ol>
+    <!--Modal-->
+    <div class="modal-container">
+      <button id="myBtn">Check here</button>
+      <hr>
+      <div id="myModal" class="modal">
+        <div class="modal-content">
+          <div class="modal-header">
+            <span class="close">&times;</span>
+            <h2>Steps to learn web development basics:</h2>
           </div>
-          <div class="modal-footer">
+          <div class="modal-body">
+
+
+            <div class="modal-footer">
+            </div>
           </div>
         </div>
       </div>
+      <!--Modal-->
 
 
-      <script src="script.js">
 
-      </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <script src="script.js"></script>
 </body>
 
 </html>
