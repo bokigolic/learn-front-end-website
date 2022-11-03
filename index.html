@@ -6,51 +6,48 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css"
-    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <title>Website</title>
 </head>
 <!--
 <div class="container">
-  <nav class="container navbar navbar-default">
+ 
     
-    <ul class="nav navbar-nav">
+    <ul>
       <li class="home"> <a href="/">Home</a></li>
       <li> <a href="/about.html">About</a></li>
       <li><a href="/contact.html">Contact</a></li>
     </ul>
-  </nav>
-</div>
+
 -->
 
 <body>
+
   <div class="container">
-    <!--Hamburger menu -->
-    <header>
-      <nav class="navbar">
-        <ul class="nav-menu">
-          <li class="nav-item">
-            <a href="/" class="nav-link">Home</a>
-          </li>
-          <li>
-            <a href="/about.html" class="nav-link">About</a>
-          </li>
-          <li>
-            <a href="/contact.html" class="nav-link">Contact</a>
-          </li>
-        </ul>
-        <div class="hamburger">
-          <span class="bar"></span>
-          <span class="bar"></span>
-          <span class="bar"></span>
-        </div>
-      </nav>
-    </header>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+      <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="mynavbar">
+              <ul class="navbar-nav me-auto">
+                  <li class="nav-item">
+                      <a class="nav-link" href="/">Home</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="/about.html">About</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="/contact.html">Contact</a>
+                  </li>
+              </ul>
+              
+          </div>
+      </div>
+  </nav>
 
-
-    <!--Hamburger menu -->
-
+    <!--Hello world animations-->
     <div class="body-animation">
       <h1>Hello World, Developers</h1>
     </div>
@@ -90,14 +87,12 @@
             <h2>Steps to learn web development basics:</h2>
           </div>
           <div class="modal-body">
-
-
-            <div class="modal-footer">
-            </div>
+            <div class="modal-footer"></div>
           </div>
         </div>
       </div>
       <!--Modal-->
+    </div>
 
 
 
@@ -114,11 +109,8 @@
 
 
 
-
-
-
-
-      <script src="script.js"></script>
+  </div>
+  <script src="script.js"></script>
 </body>
 
 </html>
