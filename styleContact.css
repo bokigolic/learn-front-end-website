@@ -1,0 +1,15 @@
+.navbar-nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+ 
+}
+.navbar-nav .nav-item.active:hover{
+  background-color: #eaeaea;
+  
+}
+ .nav-link:hover{
+  background-color: #eaeaea;
+  border-radius: 10px;
+ }
