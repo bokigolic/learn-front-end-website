@@ -60,12 +60,6 @@
   display: flex;
   font-size: 18px;
   display: flex;
-
-
-
-
-
-
 }
 
 .colapse-menu li button {
@@ -73,11 +67,6 @@
   margin: 5px;
   align-content: flex-end;
   padding: 5px;
-
-
-
-
-
 }
 
 /*Learning steps*/
@@ -85,8 +74,6 @@
 .boki1 .container {
   margin: 5px;
   padding: 5px;
-
-
 }
 
 .boki {
@@ -331,4 +318,30 @@
 .container .hr-line2{
   height: 5px;
   width: 100%;
+}
+
+.title-2::first-letter {
+  display: block;
+  font-size: 30px;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+
+.middle-title{
+  display: flex;
+  justify-content: center;
+}
+
+.front-img{
+ 
+  width: 100%;
+}
+.list{
+  position: relative;
+  left: 125px;
+  font-size: 20px;
+ 
+  
 }
