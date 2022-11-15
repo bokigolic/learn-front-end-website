@@ -92,6 +92,7 @@ window.onclick = function (event) {
 /*Hamburger menu*/
 
 
+/*Clock*/
 
 
-
+/*Clock*/
