@@ -42,8 +42,9 @@
 
 
     <!--Content-->
-    <div class="second-container">
+    <div>
       <h3 class="title">A Look Back At The Very First Website Ever Launched, 30 Years Later</h3>
+      <br>
       <p>On August 6, 1991, the first website was introduced to the world.
         <br>
 
@@ -60,209 +61,86 @@
         between different devices.
       </p>
 
-      <!--M odal-->
-      <div class="container1">
-        <img src="/images/html/website.jpg" style="max-width:80%;cursor:pointer"
-      onclick="onClick(this)" class="modal-hover-opacity">
+      <!--!-->
+      <div class="display-image">
+        <img class="first-website" src="/images/html-page/website.jpg" />
       </div>
-    <div id="modal01" class="modal" onclick="this.style.display='none'">
-      <span class="close">&times;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-      <div class="modal-content">
-        <img id="img01" style="max-width:100%">
+      <div class="text-below-first-website">
+        <h3>Understanding HTML</h3>
+        <p>HyperText Markup Language is the computer language that facilitates website creation. The language,
+          which has code words and syntax just like any other language, is relatively easy to comprehend and, as
+          time goes on, increasingly powerful in what it allows someone to create.
+          <br>
+          HyperText is the method by which Internet users navigate the web. By clicking on special text called
+          hyperlinks, users are brought to new pages. The use of hyper means it is not linear, so users can go
+          anywhere on the Internet simply by clicking on the available links. Markup is what HTML tags do to the
+          text inside of them; they mark it as a specific type of text.
+        </p>
       </div>
+      <div class="buttonsy">
+        <a class="btn btn-primary" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button"
+          aria-expanded="false" aria-controls="multiCollapseExample1">HTML</a>
+        <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample2"
+          aria-expanded="false" aria-controls="multiCollapseExample2">XML</button>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div class="collapse multi-collapse" id="multiCollapseExample1">
+            <div class="card card-body">
+              <h3>HTML</h3>
+              <p> HTML (Hyper Text Markup Language) is used to create web pages and
+                web applications. It is a
+                markup language. By HTML we can create our own static page. It is used for displaying the data not to
+                transport the data. HTML is the combination of Hypertext and Markup language. Hypertext defines the link
+                between the web pages. A markup language is used to define the text document within tag which defines
+                the structure of web pages. This language is used to annotate (make notes for the computer) text so that
+                a machine can understand it and manipulate text accordingly.
+              </p>
+              <div>
+                <img src="/images/html-page/html-example.jpg">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="collapse multi-collapse" id="multiCollapseExample2">
+            <div class="card card-body">
+              <h3>XML</h3>
+              <p> XML (eXtensible Markup Language) is also used to create web pages and web applications. It is dynamic
+                because it is used to transport the data not for displaying the data. The design goals of XML focus on
+                simplicity, generality, and usability across the Internet. It is a textual data format with strong
+                support via Unicode for different human languages. Although the design of XML focuses on documents, the
+                language is widely used for the representation of arbitrary data structures such as those used in web
+                services.
+              </p>
+              <div>
+                <img src="/images/html-page/xml-code-example.jpg">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="text-below-modal">
+        <h3>HyperText Markup Language (HTML): What It Is, How It Works</h3>
+        <p>HyperText Markup Language (HTML) is the set of markup symbols or codes inserted into a file intended for
+          display on the Internet. The markup tells web browsers how to display a web page's words and images.
+          <br> <br>
+          Each individual piece markup code (which would fall between "<" and ">" characters) is referred to as an
+            element, though many people also refer to it as a tag. Some elements come in pairs that indicate when some
+            display effect is to begin and when it is to end.</p>
+      </div>
+      <footer>
+      </footer>
+
+
     </div>
-      <h3 class="title">HyperText Markup Language (HTML): What It Is, How It Works</h3>
-      <p>HyperText Markup Language (HTML) is the set of markup symbols or codes inserted into a file intended for
-        display on the Internet. The markup tells web browsers how to display a web page's words and images.
-        <br> <br>
-        Each individual piece markup code (which would fall between "<" and ">" characters) is referred to as an
-          element, though many people also refer to it as a tag. Some elements come in pairs that indicate when some
-          display effect is to begin and when it is to end.</p>
-
-          
-          <div class="container-grid" id="p-tag">
-            <div class="row">
-              <div class="col">
-                <h3>Understanding HTML</h3>
-                <p >HyperText Markup Language is the computer language that facilitates website creation. The language,
-                  which has code words and syntax just like any other language, is relatively easy to comprehend and, as
-                  time goes on, increasingly powerful in what it allows someone to create.
-                  <br>
-                  HyperText is the method by which Internet users navigate the web. By clicking on special text called
-                  hyperlinks, users are brought to new pages. The use of hyper means it is not linear, so users can go
-                  anywhere on the Internet simply by clicking on the available links. Markup is what HTML tags do to the
-                  text inside of them; they mark it as a specific type of text.
-                </p>
-                
-              </div>
-              <div class="col">
-                <h3>HyperText Markup Language</h3>
-                <p>HTML: HTML (Hyper Text Markup Language) is used to create web pages and web applications. It is a markup language. By HTML we can create our own static page. It is used for displaying the data not to transport the data. HTML is the combination of Hypertext and Markup language. Hypertext defines the link between the web pages. A markup language is used to define the text document within tag which defines the structure of web pages. This language is used to annotate (make notes for the computer) text so that a machine can understand it and manipulate text accordingly.
-                </p>
-              </div>
-              <div class="col">
-                <h3>HTML vs. XML</h3>
-                <p >XML: XML (eXtensible Markup Language) is also used to create web pages and web applications. It is dynamic because it is used to transport the data not for displaying the data. The design goals of XML focus on simplicity, generality, and usability across the Internet. It is a textual data format with strong support via Unicode for different human languages. Although the design of XML focuses on documents, the language is widely used for the representation of arbitrary data structures such as those used in web services.
-                </p>
-                
-              </div>
-            </div>
-          </div>
-          <button id="show-more" class="open">Show more</button>
-        </div>
-        
-        
-        
-        
-        
-        
-        
-
-
-
-
-    <!--footer
-    <footer>
-      <div class="p-section">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12">
-              <div class="col-md-12">
-                <div class="section-title text-center">
-                  <h3>How to learn HTML</h3>
-                  <p class="white-text">List of resources for learning HTML</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-3">
-              <div class="p-table">
-                <div class="plan-name">
-                  <h3>W3 Schools</h3>
-                </div>
-                <div class="plan-p">
-                  <div class="p-value">00<span>0.00</span></div>
-                  <div class="interval">per month</div>
-                </div>
-                <div class="plan-list">
-                  <ul>
-                    <li><a href="https://www.w3schools.com/about/" target="_blank" class="btn-system btn-small">About
-                        W3Schools?</a></li>
-                    <li><a href="https://www.w3schools.com/html/html_examples.asp" target="_blank"
-                        class="btn-system btn-small">HTML Examples</a></li>
-                    <li><a href="https://www.w3schools.com/html/html_quiz.asp" target="_blank"
-                        class="btn-system btn-small">HTML Quiz</a></li>
-                    <li><a href="https://www.w3schools.com/html/html_exercises.asp" target="_blank"
-                        class="btn-system btn-small">HTML Exercises</a></li>
-                    <li><a href="https://www.w3schools.com/html/html_exam.asp" target="_blank"
-                        class="btn-system btn-small">Get Certified(paid)</a></li>
-                  </ul>
-                </div>
-                <div class="plan-signup">
-                  <a href="https://www.w3schools.com/html/" target="_blank" class="btn-system btn-small">Go to
-                    website</a>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-3">
-              <div class="p-table">
-                <div class="plan-name">
-                  <h3>W3 Schools</h3>
-                </div>
-                <div class="plan-p">
-                  <div class="p-value">00<span>0.00</span></div>
-                  <div class="interval">per month</div>
-                </div>
-                <div class="plan-list">
-                  <ul>
-                    <li><a href="https://www.w3schools.com/about/" target="_blank" class="btn-system btn-small">About
-                        W3Schools?</a></li>
-                    <li><a href="https://www.w3schools.com/html/html_examples.asp" target="_blank"
-                        class="btn-system btn-small">HTML Examples</a></li>
-                    <li><a href="https://www.w3schools.com/html/html_quiz.asp" target="_blank"
-                        class="btn-system btn-small">HTML Quiz</a></li>
-                    <li><a href="https://www.w3schools.com/html/html_exercises.asp" target="_blank"
-                        class="btn-system btn-small">HTML Exercises</a></li>
-                    <li><a href="https://www.w3schools.com/html/html_exam.asp" target="_blank"
-                        class="btn-system btn-small">Get Certified(paid)</a></li>
-                  </ul>
-                </div>
-                <div class="plan-signup">
-                  <a href="https://www.w3schools.com/html/" target="_blank" class="btn-system btn-small">Go to
-                    website</a>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-3">
-              <div class="p-table">
-                <div class="plan-name">
-                  <h3>W3 Schools</h3>
-                </div>
-                <div class="plan-p">
-                  <div class="p-value">00<span>0.00</span></div>
-                  <div class="interval">per month</div>
-                </div>
-                <div class="plan-list">
-                  <ul>
-                    <li><a href="https://www.w3schools.com/about/" target="_blank" class="btn-system btn-small">About
-                        W3Schools?</a></li>
-                    <li><a href="https://www.w3schools.com/html/html_examples.asp" target="_blank"
-                        class="btn-system btn-small">HTML Examples</a></li>
-                    <li><a href="https://www.w3schools.com/html/html_quiz.asp" target="_blank"
-                        class="btn-system btn-small">HTML Quiz</a></li>
-                    <li><a href="https://www.w3schools.com/html/html_exercises.asp" target="_blank"
-                        class="btn-system btn-small">HTML Exercises</a></li>
-                    <li><a href="https://www.w3schools.com/html/html_exam.asp" target="_blank"
-                        class="btn-system btn-small">Get Certified(paid)</a></li>
-                  </ul>
-                </div>
-                <div class="plan-signup">
-                  <a href="https://www.w3schools.com/html/" target="_blank" class="btn-system btn-small">Go to
-                    website</a>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-3">
-              <div class="p-table">
-                <div class="plan-name">
-                  <h3>W3 Schools</h3>
-                </div>
-                <div class="plan-p">
-                  <div class="p-value">00<span>0.00</span></div>
-                  <div class="interval">per month</div>
-                </div>
-                <div class="plan-list">
-                  <ul>
-                    <li><a href="https://www.w3schools.com/about/" target="_blank" class="btn-system btn-small">About
-                        W3Schools?</a></li>
-                    <li><a href="https://www.w3schools.com/html/html_examples.asp" target="_blank"
-                        class="btn-system btn-small">HTML Examples</a></li>
-                    <li><a href="https://www.w3schools.com/html/html_quiz.asp" target="_blank"
-                        class="btn-system btn-small">HTML Quiz</a></li>
-                    <li><a href="https://www.w3schools.com/html/html_exercises.asp" target="_blank"
-                        class="btn-system btn-small">HTML Exercises</a></li>
-                    <li><a href="https://www.w3schools.com/html/html_exam.asp" target="_blank"
-                        class="btn-system btn-small">Get Certified(paid)</a></li>
-                  </ul>
-                </div>
-                <div class="plan-signup">
-                  <a href="https://www.w3schools.com/html/" target="_blank" class="btn-system btn-small">Go to
-                    website</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </footer>
--->
-
-  </div>
-  <script src="script-html.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-    crossorigin="anonymous"></script>
+    <script src="script-html.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"></script>
 </body>
 
 </html>
